@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#f3f4f6" />
+  
+  <!-- Image icon -->
+  <path d="M40 60C40 53.3726 45.3726 48 52 48H148C154.627 48 160 53.3726 160 60V140C160 146.627 154.627 152 148 152H52C45.3726 152 40 146.627 40 140V60Z" 
+        fill="#e5e7eb" stroke="#d1d5db" stroke-width="2" />
+  
+  <!-- Mountain icon -->
+  <path d="M56 120L76 92L96 116L128 76L144 120H56Z" fill="#9ca3af" />
+  
+  <!-- Sun/circle -->
+  <circle cx="76" cy="76" r="10" fill="#9ca3af" />
+  
+  <!-- Text -->
+  <text x="100" y="172" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6b7280">
+    No Image Available
+  </text>
+</svg> 

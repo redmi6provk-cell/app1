@@ -1,0 +1,52 @@
+{
+  "name": "ecom-price-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbopack",
+    "build": "NEXT_IGNORE_LINT=true next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scan": "node scripts/backgroundScan.js",
+    "daemon": "node scripts/scanner-daemon.js"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "cookies-next": "^5.1.0",
+    "date-fns": "^4.1.0",
+    "iron-session": "^8.0.4",
+    "jsdom": "^26.0.0",
+    "next": "15.2.3",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^19.11.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-virtualized-auto-sizer": "^1.0.26",
+    "react-window": "^1.8.11",
+    "undici": "^7.5.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/estree": "^1.0.7",
+    "@types/jsdom": "^21.1.7",
+    "@types/json-schema": "^7.0.15",
+    "@types/json5": "^2.2.0",
+    "@types/node": "^20",
+    "@types/node-fetch": "^2.6.12",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-window": "^1.8.8",
+    "@types/tough-cookie": "^4.0.5",
+    "@types/yauzl": "^2.10.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
